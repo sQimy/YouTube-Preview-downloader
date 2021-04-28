@@ -1,8 +1,6 @@
 from re import findall
 import subprocess
 import requests
-import os
-
 
 while True:
 
