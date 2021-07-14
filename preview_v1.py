@@ -19,7 +19,6 @@ print(path)
 
 #Выделяем файл в проводнике
 subprocess.Popen(f'explorer /select, {path}')
-#subprocess.Popen('exporer /n, /select ' + f'{path}')
 
 status = input("Success")
 input()
