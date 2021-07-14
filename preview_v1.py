@@ -2,6 +2,7 @@ from re import findall
 import subprocess
 import requests
 
+
 #Получаем ссылку на превью 
 inputLink = input('Youtube url: ')
 pattern = r"=(.*)?="
@@ -21,4 +22,3 @@ print(path)
 subprocess.Popen(f'explorer /select, {path}')
 
 status = input("Success")
-input()
