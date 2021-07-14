@@ -4,7 +4,7 @@ import requests
 
 #Получаем ссылку на превью 
 inputLink = input('Youtube url: ')
-pattern = r"=(.*)=?"
+pattern = r"=(.*)?="
 videoID = list(findall(pattern, inputLink))
 previewLink = (f'https://i.ytimg.com/vi/{videoID[0]}/maxresdefault.jpg')
 
