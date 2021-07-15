@@ -1,6 +1,5 @@
-from os import close
 from re import findall
-#import subprocess
+from time import sleep
 import requests
 import os.path, inspect, subprocess
 
@@ -10,7 +9,7 @@ exec_path = os.path.dirname(os.path.abspath(filename))
 
 #Получаем ссылку на превью 
 inputLink = input('Youtube url: ')
-pattern = r"=(.*)"
+pattern = r"=(...........)"
 videoID = list(findall(pattern, inputLink))
 previewLink = (f'https://i.ytimg.com/vi/{videoID[0]}/maxresdefault.jpg')
 
@@ -25,7 +24,9 @@ image.close()
 #выделяем файл в проводнике
 subprocess.Popen(f'explorer /select, {fullname}')
 
-status = input("Success ")
+print("Success")
+sleep(1)
+#status = input("Success ")
 print(videoID)
 print(exec_path)
 print(fullname)
