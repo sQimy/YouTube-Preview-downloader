@@ -34,13 +34,14 @@ def main(inputLink):
 
     #выделяем файл в проводнике
     subprocess.Popen(f'explorer /select, {fullname}')
-
+'''
     print("Success")
     sleep(1)
     #status = input("Success ")
     print(videoID)
     print(exec_path)
     print(fullname)
+'''
 
 def Button():
     inputLink = str(form.lineEdit.text())
