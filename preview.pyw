@@ -27,20 +27,20 @@ def main(inputLink):
     #Сохраняем изображение
     src = requests.get(previewLink)
 
-    fullname = os.path.join(exec_path, videoID[0] + ".jpg")
-    image = open(fullname, "wb")
+    fullpath = os.path.join(exec_path, videoID[0] + ".jpg")
+    image = open(fullpath, "wb")
     image.write(src.content)
     image.close()
 
     #выделяем файл в проводнике
-    subprocess.Popen(f'explorer /select, {fullname}')
+    subprocess.Popen(f'explorer /select, {fullpath}')
 '''
     print("Success")
     sleep(1)
     #status = input("Success ")
     print(videoID)
     print(exec_path)
-    print(fullname)
+    print(fullpath)
 '''
 
 def Button():
