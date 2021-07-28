@@ -44,8 +44,12 @@ def main(inputLink):
 '''
 
 def Button():
-    inputLink = str(form.lineEdit.text())
-    main(inputLink)
+    try:
+        inputLink = str(form.lineEdit.text())
+        main(inputLink)
+    except:
+        print("sompt went wrong")
+        
 
 form.pushButton.clicked.connect(Button)
 app.exec_()
