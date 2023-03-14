@@ -8,6 +8,6 @@ Main Window has 3 buttons. Download, open folder for downloaded preview and sett
 
 ![alt text](https://github.com/sQimy/YouTube-Preview-downloader/blob/main/screenshots/mainWindow.png?raw=true)
 
-Settings Window. Allow you to choose save path, and toogle to dark mode.
+Settings Window. Allow you to choose save path, and toggle theme.
 
 ![alt text](https://github.com/sQimy/YouTube-Preview-downloader/blob/main/screenshots/settingsWindows.png?raw=true)
