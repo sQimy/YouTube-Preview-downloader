@@ -1,8 +1,8 @@
 # YouTube-Preview-downloader
 
-Paste youtube link into input, hit download and it get preview for you.
+Paste youtube link into url text field, hit download and it get preview for you.
 
-Example link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Link to test program: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 Main Window has 3 buttons. Download, open folder for downloaded preview and settings
 
